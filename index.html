@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnies Bakery - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">🌻 Sunnies</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><button class="theme-btn" id="themeBtn">🌙</button></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="page active">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Karibu Sunnies Bakery Kenya KE</h1>
+                    <p>Bringing you the authentic taste of home — from warm chapatis to golden mandazis, 
+                        to Kenyan chai and special occasion cakes.</p>
+                    <a href="products.html" class="hero-btn">Explore Our Products</a>
+                </div>
+            </section>
+
+            <section class="fade-in">
+                <h2 class="section-title">Why Choose Sunnies?</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <span class="card-icon">🌅</span>
+                        <h3>Fresh Every Morning</h3>
+                        <p>We start baking at 6 AM to ensure everything is perfectly fresh when you arrive. Our commitment to quality means you always get the best.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">🌿</span>
+                        <h3>Natural Ingredients</h3>
+                        <p>Fresh ingredients from Kenyan farmers and markets.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">👩🏾‍🍳</span>
+                        <h3>Master Bakers</h3>
+                        <p>Our team of experienced bakers brings decades of expertise to every loaf, pastry, and cake we create.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Thank You!</h3>
+            <p id="modalMessage">Your message has been received. We'll get back to you within 24 hours!</p>
+            <button class="modal-close" id="modalClose">Close</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sunnies Bakery. Baked with love, served with joy. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
