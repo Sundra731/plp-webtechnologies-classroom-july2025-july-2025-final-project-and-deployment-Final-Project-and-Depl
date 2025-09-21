@@ -6,7 +6,7 @@
 
 **Sunnies Bakery** is a simple, responsive website showcasing a local bakery in Kenya. The site highlights the bakery’s products, story, and contact information, providing a user-friendly experience for potential customers.
 
-**Live Website:** \[Add your deployment link here]
+**Live Website:** \https://sundra731.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ---
 
