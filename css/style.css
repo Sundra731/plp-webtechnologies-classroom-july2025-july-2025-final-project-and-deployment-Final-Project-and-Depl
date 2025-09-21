@@ -535,3 +535,88 @@
                 opacity: 1;
             }
         }
+        
+   /* MOBILE RESPONSIVE NAV */
+@media (max-width: 768px) {
+    /* Make nav vertical and hidden initially */
+    .nav-menu {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--bg-white);
+        padding: 1rem 0;
+        display: none; /* hidden by default */
+        border-top: 1px solid rgba(0,0,0,0.1);
+        z-index: 1050;
+    }
+
+    /* Show nav when active */
+    .nav-menu.active {
+        display: flex;
+    }
+
+    /* Mobile toggle (hamburger) button */
+    .mobile-toggle {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1100;
+        background: linear-gradient(45deg, var(--primary-purple), var(--primary-pink));
+        border: none;
+        color: white;
+        padding: 0.5rem 0.8rem;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    /* Keep theme button visible */
+    .theme-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1100;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Stack form and info vertically */
+    .contact-grid {
+        grid-template-columns: 1fr; /* single column */
+        gap: 2rem;
+    }
+
+    /* Adjust padding for mobile */
+    .contact-form, .contact-info {
+        padding: 2rem;
+    }
+
+    /* Make input fields and button full width */
+    .contact-form input,
+    .contact-form textarea,
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Reduce padding further for very small screens */
+    .contact-form, .contact-info {
+        padding: 1.5rem;
+    }
+
+    /* Make text smaller */
+    .contact-form label {
+        font-size: 0.9rem;
+    }
+
+    .submit-btn {
+        font-size: 0.95rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
